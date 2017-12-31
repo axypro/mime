@@ -98,6 +98,7 @@ class MatchTest extends TestCase
      */
     public function testTypeWrongType()
     {
+        /** @noinspection PhpParamsInspection */
         MimeMatch::match([], '*/*');
     }
 
@@ -106,6 +107,7 @@ class MatchTest extends TestCase
      */
     public function testPatternWrongType()
     {
+        /** @noinspection PhpParamsInspection */
         MimeMatch::match('image/png', []);
     }
 }

@@ -37,22 +37,22 @@ class MimePattern
     }
 
     /**
-     * @param string|MimeType $type
+     * @param string|MimeType $mime
      * @return bool
      */
-    public function match($type): bool
+    public function match($mime): bool
     {
-        $type = MimeType::build($type);
-        $t = $type->getType();
-        $s = $type->getSubtype();
+        $mime = MimeType::build($mime);
+        $type = $mime->getType();
+        $sub = $mime->getSubtype();
         if ($this->types === null) {
             return true;
         }
-        foreach ($this->types as $pt) {
-            if ($t !== $pt[0]) {
+        foreach ($this->types as $item) {
+            if ($type !== $item[0]) {
                 continue;
             }
-            if (($pt[1] === true) || ($pt[1] === $s)) {
+            if (($item[1] === true) || ($item[1] === $sub)) {
                 return true;
             }
         }

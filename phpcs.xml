@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="Nutnose Standard">
+<ruleset name="Axypro Standard">
     <file>./src</file>
     <file>./tests</file>
 

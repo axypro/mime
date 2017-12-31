@@ -1,7 +1,10 @@
 ### dev-master
 
+### 1.0.4 (31.12.2017)
+
 * `.gitattributes`: exclude `*.xml`
 * Test code coverage
+* Using [PHP mess detector](https://phpmd.org/rules/index.html)
 
 ### 1.0.3 (31.12.2017)
 
