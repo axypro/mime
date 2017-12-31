@@ -43,7 +43,7 @@ class MimePatternTest extends TestCase
                 'image/png',
             ],
             'list' => [
-                'IMAGE/PNG, video/* , audio, image/jpg',
+                'IMAGE/PNG, video/* ,, audio, image/jpg',
                 'image/png,video/*,audio/*,image/jpg',
             ],
             'list_all' => [

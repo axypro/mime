@@ -70,6 +70,11 @@ class MatchTest extends TestCase
                 'image/jpeg, image/png, image/bmp',
                 true,
             ],
+            'other' => [
+                'image/png',
+                'audio/png',
+                false,
+            ],
             '*/*' => [
                 'image/png',
                 '*/*',

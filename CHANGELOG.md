@@ -1,6 +1,7 @@
 ### dev-master
 
 * `.gitattributes`: exclude `*.xml`
+* Test code coverage
 
 ### 1.0.3 (31.12.2017)
 

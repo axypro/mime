@@ -28,7 +28,7 @@ class MimeTypeTest extends TestCase
     public function testStr(): void
     {
         $type = new MimeType('Image/PNG');
-        $this->assertSame('image/png', ''.$type->getMimeType());
+        $this->assertSame('image/png', ''.$type);
     }
 
     /**
