@@ -27,6 +27,6 @@
         }
     },
     "archive": {
-        "exclude": ["/*", "!/src", "!/README.md", "!/LICENSE", "!/composer.json", "!/index.php"]
+        "exclude": ["/**", "!/src", "!/README.md", "!/LICENSE", "!/composer.json", "!/index.php"]
     }
 }

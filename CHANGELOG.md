@@ -1,5 +1,9 @@
 ### dev-master
 
+### 1.0.1 (31.12.2017)
+
+* Composer: exclude dev files from the package archive
+
 ### 1.0.0 (30.12.2017)
 
 * Release for PHP 7.1
