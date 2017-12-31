@@ -1,5 +1,7 @@
 ### dev-master
 
+* `.gitattributes`: exclude `*.xml`
+
 ### 1.0.3 (31.12.2017)
 
 * Use `.gitattributes` instead `composer.json` for exclude dev files
