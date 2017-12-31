@@ -27,6 +27,6 @@
         }
     },
     "archive": {
-        "exclude": ["/**", "!/src", "!/README.md", "!/LICENSE", "!/composer.json", "!/index.php"]
+        "exclude": ["/tests/*", "/doc/*", "/*.sh", "/*.xml.dist", "/.travis.yml", "/CHANGELOG.md"]
     }
 }

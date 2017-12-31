@@ -1,5 +1,9 @@
 ### dev-master
 
+### 1.0.2 (31.12.2017)
+
+* Fix: Composer: exclude dev files from the package archive
+
 ### 1.0.1 (31.12.2017)
 
 * Composer: exclude dev files from the package archive
