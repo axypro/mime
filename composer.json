@@ -29,5 +29,8 @@
     },
     "archive": {
         "exclude": ["/tests/*", "/doc/*", "/*.sh", "/*.xml.dist", "/.travis.yml", "/CHANGELOG.md"]
-    }
+    },
+    "non-feature-branches": [
+        "tst"
+    ]
 }
